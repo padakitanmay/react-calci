@@ -1,10 +1,9 @@
-import { useState } from "react";
-function App() {
-    const [counter, setCounter] = useState(0);
+import React from 'react'
 
-    return (
-        <h1>Hello Vite</h1>
-    );
+const App = () => {
+  return (
+    <div>App</div>
+  )
 }
 
-export default App;
+export default App
